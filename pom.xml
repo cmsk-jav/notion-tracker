@@ -9,10 +9,10 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>dev.sk</groupId>
-    <artifactId>Notion-Client</artifactId>
+    <artifactId>notion-tracker</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>Notion-Client</name>
-    <description>Notion-Client</description>
+    <name>notion-tracker</name>
+    <description>notion-tracker</description>
     <properties>
         <java.version>17</java.version>
     </properties>

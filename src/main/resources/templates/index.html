@@ -7,9 +7,10 @@
 </head>
 <body>
     <h1>Notion Page Tracker</h1>
-        <div class="com-sm-3" style="margin-left: 10px">
+        <div class="col-sm-6" style="margin-left: 10px">
             <a class="btn btn-primary" href="/view-data">View Status</a>
-            <a class="btn btn-danger" href="/download">Download Status</a>
+            <a class="btn btn-secondary" href="/download">Download Status</a>
+            <a class="btn btn-danger" href="/logout">Logout</a>
         </div>
     <br>
     <div th:if="${viewData == true}">
