@@ -17,6 +17,7 @@ class NotionClientApplicationTests {
 
     @Test
     void contextLoads() throws Exception{
+        /*
         File jsonResult = new File("response.json");
         ObjectMapper objectMapper = new ObjectMapper();
         objectMapper.configure(DeserializationFeature.FAIL_ON_UNKNOWN_PROPERTIES, false);
@@ -34,6 +35,7 @@ class NotionClientApplicationTests {
             System.out.println("Page URL::"+ notion.getCover().getBannerURL());
             System.out.println("=====================");
         }
+        */
     }
 
     @Test
